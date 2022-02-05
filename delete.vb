@@ -3,7 +3,7 @@ Public Class delete
     Dim con As New SqlConnection("Data Source=DESKTOP-IO2QDUM\SQLEXPRESS;Initial Catalog=Project;Integrated Security=True")
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles U_name.Click
 
-    End Subs
+    End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Me.Hide()
